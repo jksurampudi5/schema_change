@@ -1,3 +1,3 @@
-USE SCHEMA DEMO2;
+USE SCHEMA jk_schema;
 
-ALTER TABLE HELLO_WORLD ADD COLUMN city string;
+ALTER TABLE jk ADD  COLUMN city string;

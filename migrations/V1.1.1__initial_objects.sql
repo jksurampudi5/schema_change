@@ -1,6 +1,5 @@
-CREATE SCHEMA DEMO;
-create schema demo2;
-CREATE TABLE HELLO_WORLD
+create schema jk_schema
+CREATE TABLE jk
 (
    FIRST_NAME VARCHAR
   ,LAST_NAME VARCHAR
