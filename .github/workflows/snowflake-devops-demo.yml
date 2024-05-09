@@ -1,5 +1,6 @@
 name: snowflake-devops-demo
 # Controls when the action will run. 
+
 on:
   push:
     branches:
@@ -36,6 +37,7 @@ jobs:
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
           python --version
           echo "Step 1: Installing schemachange"
+          pip install --upgrade pip
           pip install schemachange
           
           echo "Step 2: Running schemachange"

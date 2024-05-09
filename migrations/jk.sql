@@ -1,2 +1,0 @@
-USE SCHEMA jk_schema;
-ALTER TABLE jk ADD COLUMN phone_no NUMBER;
